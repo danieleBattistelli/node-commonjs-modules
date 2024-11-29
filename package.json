@@ -1,0 +1,16 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Lavoriamo con i moduli commonjs esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files:\r 1 - names.js\r 1. Crea una funzione che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.\r 2. Esporta la funzione dal file.\r 2 - hobbies.js\r 1. Crea una funzione che accetta tre parametri: hobbyOne, hobbyTwo, hobbyThree. La funzione dovrebbe restituire un oggetto con una proprietà hobbies, che è un array di hobby.\r 2. Esporta la funzione dal file.\r 3 - app.js\r 1. Importa la tua funzione da names.js\r 2. Importa la tua funzione da hobbies.js\r 3. Crea una funzione che non ha parametri. La funzione dovrebbe restituire un oggetto con due proprietà: fullName e hobbies. All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto.\r BONUS:\r trasformare la sintassi di commonJS in ES6\r usare la libreria chalk per colorare output",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commonjs-modules": "file:"
+  }
+}
